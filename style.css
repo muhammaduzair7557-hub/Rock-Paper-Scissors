@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #2B3A67;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    height: 300px;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.choice img:hover {
+    opacity: 0.9;
+    border: 10px solid black;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.results p {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result-message {
+    background-color: #2B3A67;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.message-container {
+    text-align: center;
+}
+
+#com {
+    text-align: center;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear-btn {
+    height: 45px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(213, 59, 59);
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.clear-btn:hover {
+    background-color: rgb(252, 121, 121);
+    transition: 0.3s;
+}
